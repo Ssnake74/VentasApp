@@ -131,10 +131,3 @@ http://localhost:5250
 4. Si no hay productos, aparece un mensaje indicando que no hubo ventas.
 
 ---
-
-## 📎 Otros archivos incluidos
-
-* `ConsultaIncisoA.sql`: Consulta SQL que devuelve el nombre de la categoría del producto con la última venta.
-* `VideoDemo.mp4`: Demostración funcional del proyecto (opcional, se puede reemplazar por un enlace de Drive).
-
----
