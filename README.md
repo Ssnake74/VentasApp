@@ -12,7 +12,6 @@ La base de datos está en **MySQL**, y la aplicación fue desarrollada en **Visu
 
 * **Windows 10 o superior**
 * **.NET SDK 7.0 o superior**
-  [Descargar aquí](https://dotnet.microsoft.com/en-us/download)
 * **MySQL Server / Workbench**
 * **Visual Studio Code**
 * Extensiones recomendadas para VS Code:
@@ -25,7 +24,7 @@ La base de datos está en **MySQL**, y la aplicación fue desarrollada en **Visu
 ## Estructura del Proyecto
 
 * `Models/`: Clases para entidades `Categoria` y `Producto`.
-* `Data/Database.cs`: Clase encargada de la conexión y ejecución de consultas SQL.
+* `Datos/Database.cs`: Clase encargada de la conexión y ejecución de consultas SQL.
 * `Pages/Index.cshtml`: Vista principal (interfaz).
 * `Pages/Index.cshtml.cs`: Lógica del filtro y resultado.
 * `appsettings.json`: No se utiliza (la cadena de conexión está en `Database.cs`).
@@ -34,10 +33,10 @@ La base de datos está en **MySQL**, y la aplicación fue desarrollada en **Visu
 
 ## 🔗 Conexión a la Base de Datos
 
-Edita la clase `Data/Database.cs` para colocar la contraseña correcta de tu usuario `root` de MySQL:
+Edita la clase `Datos/Database.cs` para colocar la contraseña correcta de tu usuario `root` de MySQL:
 
 ```csharp
-private readonly string connectionString = "server=localhost;user=root;password=AQUÍ_TU_PASSWORD;database=VentasDB";
+private readonly string connectionString = "server=localhost;user=root;password=AQUI_TU_CONTRASEÑA;database=VentasDB";
 ```
 
 ---
