@@ -43,6 +43,8 @@ INSERT INTO Venta VALUES
 
 -- CONSULTA DEL INCISO A
 -- Obtener el nombre de la categoría del producto de la última venta
+USE VentasDB;
+
 SELECT c.Nombre
 FROM Venta v
 JOIN Producto p ON v.CodigoProducto = p.CodigoProducto
