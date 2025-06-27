@@ -228,3 +228,4 @@ C:\Users\julit\OneDrive\Escritorio\VentasApp\obj\Debug\net9.0\refint\VentasApp.d
 C:\Users\julit\OneDrive\Escritorio\VentasApp\obj\Debug\net9.0\VentasApp.pdb
 C:\Users\julit\OneDrive\Escritorio\VentasApp\obj\Debug\net9.0\VentasApp.genruntimeconfig.cache
 C:\Users\julit\OneDrive\Escritorio\VentasApp\obj\Debug\net9.0\ref\VentasApp.dll
+C:\Users\julit\OneDrive\Escritorio\VentasApp\obj\Debug\net9.0\VentasApp.sourcelink.json

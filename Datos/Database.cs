@@ -6,7 +6,7 @@ namespace VentasApp.Datos
 {
     public class Database
     {
-        private readonly string connectionString = "server=localhost;user=root;password=Beily2019_74;database=VentasDB";
+        private readonly string connectionString = "server=localhost;user=root;password=CONTRASEÑA;database=VentasDB";
 
         public List<Categoria> ObtenerCategoriasConVentas2019()
         {
